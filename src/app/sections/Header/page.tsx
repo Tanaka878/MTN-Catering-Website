@@ -4,7 +4,7 @@ import {FiMenu} from 'react-icons/fi'
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center py-1 w-full">
+    <div className="flex justify-between items-center py-1 w-full sticky top-0">
   <Image
     src="/Images/catering.png"
     height={50}

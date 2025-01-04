@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 'use client'
 import React, { useState, useEffect } from 'react';
 
@@ -6,7 +7,7 @@ const Hero = () => {
     'in event planning.',
     'for weddings and parties.',
     'for corporate events.',
-    'in making memorable experiences.',
+    'in making memorable events.',
   ];
   const colors = ['text-blue-500', 'text-red-500', 'text-green-500', 'text-purple-500'];
 
@@ -42,15 +43,18 @@ const Hero = () => {
   }, [charIndex, isDeleting, loopIndex, phrases, colors]);
 
   return (
-    <div className="px-2">
-        <div className="flex items-center">
-            <h2 className="text-black font-semibold text-sm md:text-2xl">
-            Experts In
-            </h2>
-            <span className={`${currentColor} font-bold ml-1 text-sm md:text-2xl`}>
-            {currentPhrase}
-            </span>
+    <div className="px-1">
+        <h1 className='sm:text-7xl md:text-5xl font-bold text-black bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text tracking-tighter'>MTN Catering</h1>
+        <div className='border border-[#222]/10 rounded-lg'>
+          <div className="flex items-center px-2 tracking-tight">
+          <h2 className="font-semibold text-sm md:text-2xl text-blue-600">Experts</h2>
+          <span className={`${currentColor} font-bold ml-1 text-sm md:text-2xl inline-flex`}>
+                    {currentPhrase}
+                    </span>
+           </div>
+
         </div>
+        
 </div>
 
 

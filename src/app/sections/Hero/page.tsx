@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 'use client'
 import React, { useState, useEffect } from 'react';
-
+import HeroImage from '../HeroImage/page';
 const Hero = () => {
   const phrases = [
     'in event planning.',
@@ -43,18 +43,26 @@ const Hero = () => {
   }, [charIndex, isDeleting, loopIndex, phrases, colors]);
 
   return (
-    <div className="px-1 mt-2 mb-2">
+    <div className="px-1 mt-2 pb-20 mb-2 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEFFE_66%)]">
         <h1 className='p-2 sm:text-7xl md:text-5xl font-bold text-black bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text tracking-tighter mb-4'>MTN Catering</h1>
-        <div className='border border-[#222]/10 rounded-lg p-2'>
-          <div className="flex items-center px-2 tracking-tight">
-          <h2 className="font-semibold text-sm md:text-2xl text-blue-600">Experts</h2>
-          <span className={`${currentColor} font-bold ml-1 text-sm md:text-2xl inline-flex`}>
-                    {currentPhrase}
-                    </span>
-           </div>
 
-        </div>
+        <nav className='md:flex'>
+            <div className='border border-[#222]/10 rounded-lg p-2'>
+              <div className="flex items-center px-2 tracking-tight">
+                
+              <h2 className="font-semibold text-sm md:text-2xl text-blue-600">Experts</h2>
+              <span className={`${currentColor} font-bold ml-1 text-sm md:text-2xl inline-flex`}>
+                        {currentPhrase}
+                        </span>
+              </div>
 
+            </div>
+
+            <HeroImage />
+
+
+        </nav>
+       
        
 </div>
 

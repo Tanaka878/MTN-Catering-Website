@@ -11,8 +11,8 @@ const HeroImage = () => {
           src="/Images/burger.png" 
           alt="Image" 
           layout="responsive" 
-          width={400} 
-          height={400} 
+          width={200} 
+          height={200} 
           className="object-contain rounded-lg shadow-lg max-w-xs sm:max-w-md"
         />
       </nav>

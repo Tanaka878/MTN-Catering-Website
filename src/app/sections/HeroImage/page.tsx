@@ -11,7 +11,7 @@ const HeroImage = () => {
           src="/Images/chef.jpeg" 
           alt="Image" 
           layout="responsive" 
-          width={200} 
+          width={800} 
           height={200} 
           className="object-contain rounded-lg shadow-lg max-w-xs sm:max-w-md"
         />

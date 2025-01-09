@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 'use client'
 import React, { useState, useEffect } from 'react';
 import HeroImage from '../HeroImage/page';
@@ -58,7 +57,11 @@ const Hero = () => {
 
             </div>
 
-            <HeroImage />
+            <nav className='md:flex-1'>
+                <HeroImage />
+            </nav>
+
+            
 
 
         </nav>

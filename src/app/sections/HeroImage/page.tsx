@@ -8,7 +8,7 @@ const HeroImage = () => {
     <section>
         <nav className="h-auto w-full flex justify-center items-center bg-gray-100 my-6 p-4">
         <Image 
-          src="/Images/burger.png" 
+          src="/Images/chef.jpeg" 
           alt="Image" 
           layout="responsive" 
           width={200} 

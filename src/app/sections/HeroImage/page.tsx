@@ -12,7 +12,7 @@ const HeroImage = () => {
           alt="Image" 
           layout="responsive" 
           width={800} 
-          height={200} 
+          height={100} 
           className="object-contain rounded-lg shadow-lg max-w-xs sm:max-w-md"
         />
       </nav>

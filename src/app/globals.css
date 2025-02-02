@@ -28,5 +28,8 @@ body {
   .btn-primary{
     @apply bg-black text-white rounded-md transition duration-200 ease-in-out hover:bg-slate-400
   }
+  .logo-ticker-image{
+    @apply h-8 w-auto
+  }
 }
 

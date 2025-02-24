@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import {FiMenu} from 'react-icons/fi'
 import Buttons from '../ButtonContainer/page'
+import {motion} from 'framer-motion'
 
 const Header = () => {
   return (

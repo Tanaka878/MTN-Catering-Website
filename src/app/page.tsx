@@ -2,6 +2,7 @@ import Header from "./sections/Header/page";
 import Hero from "./sections/Hero/page";
 import Mission from "./sections/Mission/page";
 import LogoTicker from "./sections/LogoTicker/page";
+import Testimonials from "./sections/Testimonials/page";
 
 
 export default function Home() {
@@ -10,8 +11,8 @@ export default function Home() {
       <Header />
       <Hero />
       <LogoTicker/>
-      
       <Mission/>
+      <Testimonials/>
      
     </div>
   );

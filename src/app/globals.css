@@ -31,5 +31,9 @@ body {
   .logo-ticker-image{
     @apply h-8 w-auto
   }
+
+  .card{
+    @apply p-10 border border-solid border-[#2222]/10 rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs w-full text-black
+  }
 }
 

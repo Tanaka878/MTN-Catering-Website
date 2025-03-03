@@ -3,6 +3,7 @@ import Hero from "./sections/Hero/page";
 import Mission from "./sections/Mission/page";
 import LogoTicker from "./sections/LogoTicker/page";
 import Testimonials from "./sections/Testimonials/page";
+import Footer from "./sections/Footer/page";
 
 export default function Home() {
   return (
@@ -34,6 +35,10 @@ export default function Home() {
           {/* Testimonials section with proper spacing */}
           <section className="px-4 sm:px-6 lg:px-8">
             <Testimonials />
+          </section>
+          {/**Footer section */}
+          <section>
+            <Footer/>
           </section>
         </div>
       </div>
